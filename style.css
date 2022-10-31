@@ -3,17 +3,11 @@
     padding: 0;
   }
 
-  /* @font-face {
-    font-family: "StratosSkyeng";
-    font-style: normal;
-    font-weight: 400;
-    src: local("Roboto"),
-         
-         url("/statosskyeng-v1.001/Web\ fonts/StratosSkyeng) format("woff2"),
-         
-         url("/statosskyeng-v1.001/Web\ fonts/statosskyeng-v1") format("woff");
-
-  } */
+  @font-face {
+    font-family: 'StratosSkyeng'; 
+    src: local('StratosSkyeng'),
+      url(./statosskyeng-v1.001/Web/stratosskyengweb-medium.woff); 
+  }
 
   .main {
     width: 1024px;
@@ -37,6 +31,7 @@ margin-bottom: 157px; */
   }
 
   .main_text {
+    font-family: 'StratosSkyeng';
     width: 208px;
 height: 96px;
 font-style: normal;
@@ -89,6 +84,7 @@ line-height: 72px;
 align-items: center;
 text-align: center;
 color: #0080C1;
+font-family: 'StratosSkyeng';
   }
 
   .b2 {
@@ -102,6 +98,7 @@ line-height: 72px;
 align-items: center;
 text-align: center;
 color: #0080C1;
+font-family: 'StratosSkyeng';
   }
 
   .b3 {
@@ -115,6 +112,7 @@ line-height: 72px;
 align-items: center;
 text-align: center;
 color: #0080C1;
+font-family: 'StratosSkyeng';
   }
 
   .button {
@@ -128,5 +126,6 @@ font-style: normal;
 font-weight: 400;
 font-size: 24px;
 line-height: 32px;
+font-family: 'StratosSkyeng';
 color: #ffffff;
   }
