@@ -10,7 +10,9 @@
   }
 
   .main {
-    width: 1024px;
+    /* width: 1024px; */
+    display: flex;
+    justify-content: center;
     height: 774px;
     background-color: #004980;
     position: relative;
@@ -44,18 +46,20 @@ margin-left: 136px;
 padding-top: 52px;
   }
 
-  .box_1 {
+  /* .box_1 {
     width: 98px;
 height: 98px;
 background: #FFFFFF;
 border-radius: 12px;
-  }
+cursor: pointer;
+  } */
 
   .box_2 {
     width: 98px;
 height: 98px;
 background: #FFFFFF;
 border-radius: 12px;
+cursor: pointer;
   }
 
   .box_3 {
@@ -63,6 +67,7 @@ border-radius: 12px;
 height: 98px;
 background: #FFFFFF;
 border-radius: 12px;
+cursor: pointer;
   }
 
   .boxes{
@@ -73,7 +78,7 @@ border-radius: 12px;
     gap: 24px;
   }
 
-  .b1 {
+  /* .b1 {
     display: grid;
     width: 98px;
 height: 98px;
@@ -82,26 +87,90 @@ font-weight: 400;
 font-size: 64px;
 line-height: 72px;
 align-items: center;
+text-align: center;
+color: #0080C1;
+font-family: 'StratosSkyeng';
+  } */
+
+  .box_1 {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .box_1 input[type=radio] {
+    display: none;
+  }
+  .box_1 label {
+    width: 98px;
+height: 98px;
+background: #FFFFFF;
+border-radius: 12px;
+cursor: pointer;
+    display: flex;
+    user-select: none;
+    font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 72px;
+align-items: center;
+justify-content: center;
+text-align: center;
+color: #0080C1;
+font-family: 'StratosSkyeng';
+  }
+   
+  .box_2 {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .box_2 input[type=radio] {
+    display: none;
+  }
+  .box_2 label {
+    width: 98px;
+height: 98px;
+background: #FFFFFF;
+border-radius: 12px;
+cursor: pointer;
+    display: flex;
+    user-select: none;
+    font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 72px;
+align-items: center;
+justify-content: center;
 text-align: center;
 color: #0080C1;
 font-family: 'StratosSkyeng';
   }
 
-  .b2 {
-    display: grid;
+  .box_3 {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .box_3 input[type=radio] {
+    display: none;
+  }
+  .box_3 label {
     width: 98px;
 height: 98px;
-font-style: normal;
+background: #FFFFFF;
+border-radius: 12px;
+cursor: pointer;
+    display: flex;
+    user-select: none;
+    font-style: normal;
 font-weight: 400;
 font-size: 64px;
 line-height: 72px;
 align-items: center;
+justify-content: center;
 text-align: center;
 color: #0080C1;
 font-family: 'StratosSkyeng';
   }
 
-  .b3 {
+  /* .b2 {
     display: grid;
     width: 98px;
 height: 98px;
@@ -113,13 +182,28 @@ align-items: center;
 text-align: center;
 color: #0080C1;
 font-family: 'StratosSkyeng';
-  }
+  } */
+
+  /* .b3 {
+    display: grid;
+    width: 98px;
+height: 98px;
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 72px;
+align-items: center;
+text-align: center;
+color: #0080C1;
+font-family: 'StratosSkyeng';
+  } */
 
   .button {
     width: 246px;
 height: 50px;
 background: #7AC100;
 border: none;
+cursor: pointer;
 border-radius: 12px;
 margin-left: 117px;
 font-style: normal;
