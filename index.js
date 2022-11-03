@@ -22,4 +22,5 @@ butt_three.addEventListener('click', (b) => {
 button.addEventListener('click', () => {
     if (boxes.checked == true) 
     return;
+    const lvl = boxes.value 
 });
