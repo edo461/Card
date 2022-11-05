@@ -5,8 +5,10 @@ button.addEventListener('click', () => {
     const radioLevel = document.querySelector('.level-radio:checked')
 
     if (radioLevel) {
-        const val = target.value
-        window.application = val;
+        const value = radioLevel.value
+        window.application = {
+            level: value
+        };
     }
-    
+
 });
