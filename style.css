@@ -34,6 +34,7 @@ margin-bottom: 157px; */
   }
 
   .main_text {
+    padding-top: 52px;
     font-family: 'StratosSkyeng';
     width: 100%;
 height: auto;
@@ -56,7 +57,7 @@ border-radius: 12px;
 cursor: pointer;
   } */
 
-  .box_2 {
+  /* .box_2 {
     width: 98px;
 height: 98px;
 background: #FFFFFF;
@@ -72,16 +73,17 @@ background: #FFFFFF;
 border-radius: 12px;
 cursor: pointer;
 margin: 0;
-  }
+  } */
 
   .boxes{
+    margin-top: 48px;
     padding: 0;
         justify-content: center;
     display: flex;
     /* margin-top: 48px;
     margin-bottom: 67px;
     padding-left: 69px; */
-    /* gap: 24px; */
+    gap: 24px;
   }
 
   /* .b1 {
@@ -209,7 +211,7 @@ color: #0080C1;
 font-family: 'StratosSkyeng';
   } */
 
-  .button {
+  .button_1 {
     width: 246px;
 height: 50px;
 background: #7AC100;
@@ -223,6 +225,7 @@ font-size: 24px;
 line-height: 32px;
 font-family: 'StratosSkyeng';
 color: #ffffff;
+margin-top: 67px;
   }
 
   .rub {
