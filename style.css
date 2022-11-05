@@ -11,37 +11,41 @@
 
   .main {
     /* width: 1024px; */
+    width: 100%;
+        height: 100vh;
     display: flex;
     justify-content: center;
-    height: 774px;
+    /* height: 774px; */
     background-color: #004980;
     position: relative;
-    padding-top: 158px;
+    /* padding-top: 158px; */
   }
 
   .diff {
+    margin: auto;
     width: 480px;
 height: 459px;
 background: #C2F5FF;
 border-radius: 12px;
-margin-left: 272px;
-margin-right: 272px;
+/* margin-left: 272px;
+margin-right: 272px; */
 /* margin-top: 158px;
 margin-bottom: 157px; */
   }
 
   .main_text {
     font-family: 'StratosSkyeng';
-    width: 208px;
-height: 96px;
+    width: 100%;
+height: auto;
 font-style: normal;
+margin: 0;
 font-weight: 400;
 font-size: 40px;
 line-height: 48px;
 text-align: center;
 color: #004980;
-margin-left: 136px;
-padding-top: 52px;
+/* margin-left: 136px;
+padding-top: 52px; */
   }
 
   /* .box_1 {
@@ -58,6 +62,7 @@ height: 98px;
 background: #FFFFFF;
 border-radius: 12px;
 cursor: pointer;
+margin: 0;
   }
 
   .box_3 {
@@ -66,14 +71,17 @@ height: 98px;
 background: #FFFFFF;
 border-radius: 12px;
 cursor: pointer;
+margin: 0;
   }
 
   .boxes{
+    padding: 0;
+        justify-content: center;
     display: flex;
-    margin-top: 48px;
+    /* margin-top: 48px;
     margin-bottom: 67px;
-    padding-left: 69px;
-    gap: 24px;
+    padding-left: 69px; */
+    /* gap: 24px; */
   }
 
   /* .b1 {
@@ -116,6 +124,11 @@ color: #0080C1;
 font-family: 'StratosSkyeng';
   }
    
+  .box_2,
+    .box_1,
+    .box_3 {
+        margin: 0;}
+
   .box_2 {
     display: inline-block;
     margin-right: 10px;
@@ -210,4 +223,36 @@ font-size: 24px;
 line-height: 32px;
 font-family: 'StratosSkyeng';
 color: #ffffff;
+  }
+
+  .rub {
+    width: 95px;
+height: 133px;
+background: #FFFFFF;
+border-radius: 4px;
+  }
+
+  .rub_1 {
+    width: 83px;
+height: 121px;
+background: #E4FBFF;
+border-radius: 4px;
+padding: 6px;
+  }
+
+  .rub_main {
+    display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(9, 1fr);
+  margin-left: 26px;
+  margin-right: 23px;
+  }
+
+  .timer {
+    font-family: 'StratosSkyeng';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 72px;
+color: #FFFFFF;
   }
